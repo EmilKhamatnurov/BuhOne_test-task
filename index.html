@@ -5,7 +5,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style/index.css">
-	<!-- <link rel="stylesheet" href="style/normalize.css"> -->
+	<link rel="stylesheet" href="style/normalize.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
 	<title>BuhOne</title>
 </head>
 <body>
@@ -35,7 +37,29 @@
 		</header>
 		<main class="main">
 			<section class="main-information">
-				<!-- ?тут должен быть полноценный слайдер -->
+				<!-- Additional required wrapper -->
+				<div class="main__swiper">
+					<div class="swiper-wrapper">
+						<!-- Slides -->
+						<div class="swiper-slide">
+							<div class="main-information__info">
+								<h1 class="main-information__title">Бухгалтерские услуги в Санкт-Петербурге</h1>
+								<a class="main-information__button" href="#">Наша презентация</a>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="main-information__info">
+								<h1 class="main-information__title">Бухгалтерские услуги в Санкт-Петербурге</h1>
+								<a class="main-information__button" href="#">Наша презентация</a>
+							</div>
+						</div>
+					</div>
+				<!-- If we need pagination -->
+					<div class="swiper-pagination"></div>
+					<!-- If we need navigation buttons -->
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				</div>
 			</section>
 			<section class="services">
 				<div class="wrap">
@@ -169,5 +193,7 @@
 			<p class="footer__developer">Разработано: WebStudion</p>
 		</div>
 	</div>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script src="js/swiper.js"></script>
 </body>
 </html>

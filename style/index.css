@@ -107,7 +107,38 @@ html {
 	flex: 1 1 auto;
 }
 
+.main-information {}
 
+/* ________________SWIPER_________________ */
+.main__swiper {
+	/* height: 670px; */
+	/* height: fit-content; */
+}
+
+.swiper-wrapper {}
+
+.swiper-slide {
+	background: url("../img/Main-zone-background.png") 0 0/cover no-repeat;
+	height: 670px;
+	max-width: 100%;
+}
+
+.main-information__info {
+	/* text-align: center; */
+	color: #fff;
+}
+
+.main-information__title {}
+
+.main-information__button {}
+
+.swiper-pagination {}
+
+.swiper-button-prev {}
+
+.swiper-button-next {}
+
+/* ________________SWIPER_________________ */
 .services {
 	background-color: #EBEBEB;
 	padding-top: 140px;
