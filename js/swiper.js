@@ -1,8 +1,11 @@
 new Swiper('.main__swiper', {
 	// Optional parameters
 	loop: true,
+	autoplay: {
+		delay: 5000,
+	  },
 	autoHeight: false,
-	speed:300,
+	speed:1000,
 	spaceBetween: 20,
 	// If we need pagination
 	pagination: {
