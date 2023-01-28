@@ -127,17 +127,51 @@ html {
 	background: url("../img/Main-zone-background.png") 0 0/cover no-repeat;
 	height: 670px;
 	color: #fff;
+	position: relative;
+
+
 }
 
-.main-information__title {}
+.information_wrapper {
+	/* background-color: #005FA3; */
+	max-width: 1116px;
+	margin: 0 auto;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
 
-.main-information__button {}
+}
+
+.main-information__title {
+	font-size: 48px;
+	max-width: 589px;
+}
+
+.main-information__button {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	max-width: 270px;
+	padding: 19px 18px;
+	background-color: #005FA3;
+}
 
 .swiper-pagination {}
 
-.swiper-button-prev {}
+.swiper-slide_button {
+	--swiper-theme-color: #fff;
+	background: rgba(255, 255, 255, 0.5);
+	height: 60px !important;
+	width: 60px !important;
+}
 
-.swiper-button-next {}
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+	/* Первая кнопка переключения слайдов */
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {}
 
 /* ________________SWIPER_________________ */
 .services {
