@@ -109,6 +109,35 @@ html {
 
 .main-information {}
 
+.swiper {
+	max-width: 100%;
+	height: 670px;
+}
+
+.swiper-slide {
+	background: url(../img/Main-zone-background.png) center center no-repeat;
+	background-size: cover;
+}
+
+.swiper-slide_one {}
+
+.main-info-wrapper {
+	max-width: 589px;
+	color: #fff;
+	transform: translate(10%, 100%); //Вроде неплохой способ позиционирования  Может так же попробовать задать размеры фона для слайда
+}
+
+.main-info-title {
+	font-size: 48px;
+}
+
+.main-info-button {
+	color: #fff;
+	text-decoration: none;
+	background-color: #005FA3;
+	padding: 19px 18px;
+}
+
 .services {
 	background-color: #EBEBEB;
 	padding-top: 140px;
