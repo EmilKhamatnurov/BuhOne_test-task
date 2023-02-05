@@ -121,32 +121,15 @@ html {
 	background-size: cover;
 }
 
-.swiper-slide_one {}
 
-.swiper {
-}
-.swiper-wrapper {
-}
-.swiper-slide {
-}
-.swiper-slide_one {
-}
-.swiper-pagination {
-}
-.swiper-button-prev {
-	left: inherit;
-	right: 63px;
-}
 
-.swiper-next-prev-buttons {
-	/* display: flex;
-	justify-content: center;
-	align-items: center; */
-}
 .s-button {
 	width: 8px;
 	height: 15px;
 	padding: 22px;
+	top: inherit;
+	bottom: 113px;
+	outline: none;
 	background: rgba(255, 255, 255, 0.2)
 }
 
@@ -154,15 +137,48 @@ html {
 	background: rgba(255, 255, 255, 0.4)
 }
 
+.swiper-button-prev {
+	left: inherit;
+	right: 457px;
+}
+
 .swiper-button-next {
+	right: 405px;
+}
+
+.swiper-pagination {
+	left: 0px;
+	bottom: 113px;
+}
+
+.swiper-pagination-bullet {
+	background: rgba(255, 255, 255, 0.4);
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+	margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 20px);
+
+	bottom: 113px;
+
+}
+
+
+.swiper-pagination-bullet-active {
+	background: rgba(255, 255, 255);
 }
 
 /* _________SWIPER_________ */
 
 .main-info-wrapper {
-	max-width: 589px;
 	color: #fff;
-	transform: translate(10%, 100%); //Вроде неплохой способ позиционирования  Может так же попробовать задать размеры фона для слайда
+	transform: translateY(100%);
+	max-width: 1116px;
+	margin: 0 auto;
+}
+
+.lorem {
+	font-size: 42px;
 }
 
 .main-info-title {
