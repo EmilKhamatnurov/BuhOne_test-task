@@ -146,21 +146,31 @@ html {
 	right: 405px;
 }
 
-.swiper-pagination {
-	left: 0px;
-	bottom: 113px;
-}
+.swiper-pagination {}
 
 .swiper-pagination-bullet {
 	background: rgba(255, 255, 255, 0.4);
 }
 
+/* ! Мне не нравится, что стили для пагинации записаны таким образом, но я пока не совсем понимаю, где найти конкретно то, что я ищу и нормально переопределить то, что я хочу */
+/* *В дальнейшем нужно использовать каскад стилей и переопределить стиль адаптивно */
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+	bottom: 113px;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+	left: -482px;
+}
+
 .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
 	margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 20px);
-
-	bottom: 113px;
-
 }
 
 
