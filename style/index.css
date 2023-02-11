@@ -339,7 +339,42 @@ html {
 
 .clients {
 	background-color: #DBDBDB;
+	padding: 100px 0 100px 0;
 }
+
+/* CLIENTS_____SWIPER */
+.clients_swiper {
+	max-width: 100%;
+	height: 240px;
+}
+
+.clients-swiper_wrapper {
+}
+
+.clients-swiper_slide {
+	background: none;
+}
+
+.companies_logo {
+	display: flex;
+	justify-content: space-between;
+}
+
+.clients-swiper_pagination {
+
+}
+
+.clients-swiper-button-prev {
+	bottom: 0;
+	right: 53px;
+}
+
+.clients-swiper-button-next {
+	bottom: 0;
+	right: 0;
+}
+
+
 
 .footer {
 	padding-top: 122px;
