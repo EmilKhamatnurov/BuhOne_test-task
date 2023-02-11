@@ -360,21 +360,38 @@ html {
 	justify-content: space-between;
 }
 
-.clients-swiper_pagination {
-
+.clients-swiper_pagination .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+	bottom: 0px;
 }
+
+.clients-swiper_pagination .swiper-horizontal .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+	background-color: #005FA3;
+}
+
 
 .clients-swiper-button-prev {
 	bottom: 0;
 	right: 53px;
+	background: #005FA3;
+	opacity: 0.2;
+}
+.clients-swiper-button-prev:hover {
+	background: #005FA3;
+	opacity: 1;
+	/* opacity: ; */
 }
 
 .clients-swiper-button-next {
 	bottom: 0;
 	right: 0;
+	background: #005FA3;
+	opacity: 0.2;
 }
 
-
+.clients-swiper-button-next:hover {
+	background: #005FA3;
+	opacity: 1;
+}
 
 .footer {
 	padding-top: 122px;
